@@ -5,6 +5,11 @@ ship_grid_x=(room_width-ship_maxSize_x*ship_gridSize)/2
 ship_grid_y=(room_height-ship_maxSize_y*ship_gridSize)/2
 ship_gridCurrent_x=-1
 ship_gridCurrent_y=-1
+ship_rooms=0
+ship_roomType[0]=-1
+ship_roomSize[0]=0
+
+
 
 //test var
 testicals=0
@@ -31,3 +36,5 @@ menu_high = menu_pad*4 + parts*(ship_gridSize + menu_pad*3 + menu_partsHigh) + m
 
 scr_constructionGrid_int()
 sur_ship_buildGrid = scr_int_grid_surface(ship_maxSize_x,ship_maxSize_y,ship_gridSize)//Setup surface for grid to building area
+sur_ship_build = surface_create(ship_maxSize_x*ship_gridSize+16,ship_maxSize_y*ship_gridSize+16)
+

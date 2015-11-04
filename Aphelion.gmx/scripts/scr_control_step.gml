@@ -35,4 +35,8 @@ if mouse_check_button(mb_left)
     
 if mouse_check_button_released(mb_right)
     menu_select=-1
+    
+//Draw ship's surface
+scr_redraw_ship()
+    
 

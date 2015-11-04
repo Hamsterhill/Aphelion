@@ -8,10 +8,14 @@
   <sprites name="sprites">
     <sprite>sprites\spr_floor</sprite>
     <sprite>sprites\spr_wall_int</sprite>
-    <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\spr_wall_int_corner</sprite>
     <sprite>sprites\spr_door</sprite>
     <sprite>sprites\spr_wall_ext</sprite>
-    <sprite>sprites\spr_wall_ext_corner</sprite>
+    <sprite>sprites\spr_wall_ext_corner1</sprite>
+    <sprite>sprites\spr_wall_ext_corner2</sprite>
+    <sprite>sprites\spr_wall_ext_corner3</sprite>
+    <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\sprite6</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -23,6 +27,7 @@
     <script>scripts\scr_int_partsMenu.gml</script>
     <script>scripts\scr_draw_partsMenu.gml</script>
     <script>scripts\scr_constructionGrid_int.gml</script>
+    <script>scripts\scr_redraw_ship.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fon_partsMenu_title</font>
@@ -32,7 +37,7 @@
     <object>objects\o_control</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\rm_shipyard</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
