@@ -6,38 +6,23 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_floor</sprite>
-    <sprite>sprites\spr_wall_int</sprite>
-    <sprite>sprites\spr_wall_int_corner</sprite>
-    <sprite>sprites\spr_door</sprite>
-    <sprite>sprites\spr_wall_ext</sprite>
-    <sprite>sprites\spr_wall_ext_corner1</sprite>
-    <sprite>sprites\spr_wall_ext_corner2</sprite>
-    <sprite>sprites\spr_wall_ext_corner3</sprite>
-    <sprite>sprites\sprite2</sprite>
-    <sprite>sprites\sprite6</sprite>
+    <sprite>sprites\spr_ship</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_control_int.gml</script>
-    <script>scripts\scr_control_step.gml</script>
-    <script>scripts\scr_control_draw.gml</script>
-    <script>scripts\scr_int_grid_surface.gml</script>
-    <script>scripts\scr_int_partsMenu.gml</script>
-    <script>scripts\scr_draw_partsMenu.gml</script>
-    <script>scripts\scr_constructionGrid_int.gml</script>
-    <script>scripts\scr_redraw_ship.gml</script>
+    <script>scripts\scr_ship_int.gml</script>
+    <script>scripts\scr_ship_step.gml</script>
+    <script>scripts\scr_ship_draw.gml</script>
   </scripts>
-  <fonts name="fonts">
-    <font>fonts\fon_partsMenu_title</font>
-    <font>fonts\fon_partsMenu_parts</font>
-  </fonts>
   <objects name="objects">
     <object>objects\o_control</object>
+    <object>objects\o_ship</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_shipyard</room>
+    <room>rooms\rm_space</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
